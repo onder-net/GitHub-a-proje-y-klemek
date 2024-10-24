@@ -1,0 +1,29 @@
+git init
+git add .
+git commit -m "İlk yükleme"
+
+git remote add origin https://github.com/kullanıcı_adı/depo_adı.git
+git push -u origin master
+git add .
+
+git commit -m "İlk commit"
+
+git remote add origin https://github.com/kullanici_adi/proje_adi.git
+
+git push -u origin master
+
+git remote set-url origin https://github.com/kullanici_adin/depo_adi.git
+
+git commit -m "Dosyaları ekledim"
+
+//uzak depo arasında senkronizasyon problemi olduğunda ortaya çıkarsa
+
+git pull origin main --rebase
+git push origin main
+git branch
+git push origin master
+git branch -M main
+git push origin main
+
+//Resmi Yükleyin
+![Resim Açıklaması](images/resim_adı.png)
